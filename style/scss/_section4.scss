@@ -1,0 +1,42 @@
+
+.bg__delivery{
+  background: #000 url(../../img/bg-delivery.jpg) 0 0 no-repeat;
+  height: 290px;
+}
+
+#section4{
+
+  .fp-tableCell{
+    vertical-align: top;
+  }
+
+}
+
+.delivery_upper-text{
+  font-family: $font-RaleReg;
+  color: #fff;
+  text-align: center;
+  line-height: 28px;
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+
+.delivery_cond{
+  @extend .flex-row;
+
+}
+
+.delivery__cond-adress--form{
+
+  input{
+    width: 315px;
+    display: inline-block;
+  }
+
+}
+
+.delivery__cond-adress--form---date{
+
+
+}
+

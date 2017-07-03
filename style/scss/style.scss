@@ -1,0 +1,96 @@
+/*
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
+*/
+
+$main-color: #927850;
+$second-color: #c59d5f;
+$font-RaleReg: 'RalewayRegular', sans-serif;
+$font-RaleBold: 'RalewayBold', sans-serif;
+$font-RaleBlack:'RalewayBlack', sans-serif;
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@import "top-menu.scss";
+@import "section0.scss";
+@import "_section1.scss";
+@import "_section2.scss";
+@import "_section3.scss";
+@import "_section4.scss";
+@import "_media.scss";
+
+body {
+  background-color: #f4f4f4;
+  height: 100%;
+  font-family: $font-RaleReg;
+  min-width: 320px;
+}
+
+.section {
+  background-color: transparent;
+}
+
+.container{
+  outline:1px solid red;
+}
+
+h2 {
+  font-family: $font-RaleBold;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+b{
+  display: inline-block;
+}
+
+.name__black {
+  color: #151515;
+}
+
+.name__white {
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+#fp-nav.right span {
+  background-color: #dcbd83;
+}
+
+#fp-nav.right a.active span {
+  background-color: #927850;
+}
+
+#fp-nav ul li .fp-tooltip{
+  font-family:$font-RaleBlack;
+  color: #dcbd83;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

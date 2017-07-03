@@ -1,0 +1,113 @@
+.bg__top-menu {
+  background-color: rgba(42, 36, 29, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+/*.top__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}*/
+
+/*#menu {
+  @extend .flex-row;
+  padding: 35px 0;
+  margin: 0;
+}*/
+
+#menu > li {
+  margin: 0 15px;
+}
+
+#menu a {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+#menu > li.active a,
+#menu > li:hover a {
+  transition: 0.3s linear;
+  color: #94774a;
+  background-color: transparent !important;
+  background-image: none ;
+}
+
+/*#menu > li::before {
+  display: inline-block;
+  content: ' ';
+  background: transparent url(../../img/ar-small.png) center no-repeat;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  padding-right: 15px;
+  transition: 0.3s linear;
+}*/
+
+/*#menu > li.active::before,
+#menu > li:hover::before {
+  display: inline-block;
+  content: ' ';
+  background: transparent url(../../img/ar-small-hover.png) 0 0 no-repeat;
+  width: 20px;
+  height: 20px;
+  vertical-align: top;
+}*/
+.navbar{
+  border: none;
+  margin: 20px 0;
+}
+.navbar-default{
+  background-image: none !important;
+  background-color: transparent !important;
+  box-shadow: none;
+}
+
+.top__contact {
+  float: right;
+  text-align: right;
+
+  .top__contact--p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: #fff;
+    opacity: 0.5;
+    letter-spacing: 4px;
+  }
+  .top__contact--number {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff !important;
+    letter-spacing: 3px;
+    a{
+      color: #fff !important;
+      text-decoration: none;
+      i{
+        color: #927850;
+        font-size: 20px;
+      }
+      span {
+        font-size: 24px;
+        font-weight: 800;
+      }
+    }
+
+  }
+
+}
+
+/*
+.top__contact--number::before {
+  content: ' ';
+  display: inline-block;
+  background: transparent url(../../img/top-phone.png) center no-repeat;
+  width: 13px;
+  height: 13px;
+  padding-right: 5px;
+}*/

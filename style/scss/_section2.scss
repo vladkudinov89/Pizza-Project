@@ -1,0 +1,152 @@
+.bg__snacks {
+  background: #fff url(../../img/bg-zakuski.jpg) 0 0 no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.snaks__upper--text {
+  font-family: $font-RaleReg;
+  color: #fff;
+  text-align: center;
+  line-height: 28px;
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+
+.snaks__cart {
+
+  text-align: center;
+  color: #151515;
+  background-color: #fff;
+
+  .snaks__cart-img {
+
+    position: relative;
+  }
+
+  .snaks__cart-img--after {
+    position: absolute;
+    bottom: -34px;
+    left: 37%;
+    background-color: $second-color;
+    border-radius: 50%;
+    padding: 15px 10px;
+
+    p {
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .snaks__cart-name {
+
+    margin-top: 50px;
+
+    b {
+      font-family: $font-RaleBold;
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+
+  }
+
+  .snaks__cart-descript {
+
+    /*margin: 30px 0;*/
+
+    p {
+      font-family: $font-RaleReg;
+      font-size: 13px;
+      line-height: 21px;
+    }
+
+  }
+
+  .snaks__cart-consist {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+
+    p {
+      font-family: $font-RaleReg;
+      font-size: 12px;
+      line-height: 21px;
+      margin: 0;
+
+      span {
+        font-family: $font-RaleBold;
+      }
+    }
+
+  }
+
+  .snaks__cart-button {
+    cursor: pointer;
+    font-family: $font-RaleBold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: $second-color;
+    padding: 15px 0;
+  }
+
+  .snaks__cart-button:hover {
+    transition: 0.3s linear;
+    background-color: $main-color;
+  }
+
+  /*.snaks__cart-button::before {
+    content: ' ';
+    display: inline-block;
+    background: transparent url(../../img/galka.png) 0 0 no-repeat;
+    width: 13px;
+    height: 10px;
+    padding-right: 7px;
+  }*/
+
+}
+
+#section2 {
+
+  .owl-dot {
+    margin-top: 15px;
+  }
+
+  .owl-dot.active span {
+    background-color: $main-color;
+  }
+
+  .owl-dot span {
+    background-color: #635651;
+  }
+
+  .owl-prev,
+  .owl-next {
+    position: absolute;
+    top: 45%;
+    display: inline-block;
+    font-size: 32px;
+    background-color: transparent;
+
+    /* width: 13px;
+     height: 22px;*/
+    opacity: 0.5;
+  }
+
+  .owl-prev {
+    left: -5%;
+   /* background: transparent url(../../img/ar-left.png) 0 0 no-repeat;*/
+  }
+
+  .owl-next {
+    right: -5%;
+   /* background: transparent url(../../img/ar-right.png) 0 0 no-repeat;*/
+  }
+
+  .owl-prev:hover,
+  .owl-next:hover {
+    opacity: 1;
+    transition: opacity 0.3s linear;
+  }
+
+}

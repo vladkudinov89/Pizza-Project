@@ -1,0 +1,93 @@
+.drinks {
+
+}
+
+.drinks__upper--text {
+  font-family: $font-RaleReg;
+  color: #151515;
+  text-align: center;
+  line-height: 28px;
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+
+.drinks__cart {
+  text-align: center;
+  /*  margin-top: 40px;*/
+}
+
+.drinks__cart-img {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.drinks__cart-name {
+  p {
+    font-family: 'RalewayBold', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+
+  .drinks__cart-name--price {
+    text-transform: lowercase;
+    font-size: 14px;
+    color: #999999;
+  }
+}
+
+.drinks__cart-button {
+
+  span {
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'RalewayBold', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #c59d5f;
+    padding: 15px 40px;
+    margin: 20px;
+  }
+
+  span::before {
+    content: ' ';
+    display: inline-block;
+    background: transparent url(../../img/galka.png) 0 0 no-repeat;
+    width: 13px;
+    height: 10px;
+    padding-right: 7px;
+  }
+
+  span:hover {
+    transition: 0.3s linear;
+    background-color: #927850;
+  }
+}
+
+#section3 {
+  .owl-prev,
+  .owl-next {
+    position: absolute;
+    top: 35%;
+    display: inline-block;
+    width: 13px;
+    height: 22px;
+    opacity: 0.5;
+  }
+  .owl-prev {
+    left: 0;
+    background: transparent url(../../img/ar-left-black.png) 0 0 no-repeat;
+  }
+  .owl-next {
+    right: 0;
+    background: transparent url(../../img/ar-right-black.png) 0 0 no-repeat;
+  }
+  .owl-prev:hover,
+  .owl-next:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s linear;
+
+  }
+
+}

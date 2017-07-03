@@ -1,0 +1,129 @@
+/*------------------SECTION1 BEGIN------------------*/
+
+.bg__pizza {
+  background-color: #fff;
+/*  margin-top: -270px;*/
+}
+
+
+
+#section1 {
+
+  .pizza__cart {
+    position: relative;
+  }
+
+  .pizza__cart-img{
+    display: inline-block;
+  }
+
+  .test{
+
+    position: absolute;
+    top: 48%;
+    left: 10%;
+    right: 15%;
+    @extend .flex-row;
+    justify-content: space-between;
+    align-items: baseline;
+
+    margin-top: 15px;
+
+  }
+
+  .check-box-container {
+    cursor: pointer;
+
+    span {
+      font-family: $font-RaleBlack;
+      font-size: 16px;
+      color: #fff;
+      border: 5px solid $second-color;
+      border-radius: 50%;
+      padding: 10px;
+    }
+
+  }
+
+  .pizza_cart-price {
+
+    span {
+      background-color: $second-color;
+      font-family: $font-RaleBlack;
+      font-size: 24px;
+      color: #fff;
+      padding: 12px 20px;
+
+    }
+
+  }
+
+  .pizza__cart-button{
+    margin-bottom: 40px;
+
+    .pizza__cart-button--choice{
+      display: inline-block;
+      cursor: pointer;
+      font-family: $font-RaleBold;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #fff;
+      background-color: $second-color;
+      padding: 18px 40px;
+
+    }
+
+    .pizza__cart-button--choice::before {
+      content: ' ';
+      display: inline-block;
+      background: transparent url(../../img/galka.png) 0 0 no-repeat;
+      width: 13px;
+      height: 10px;
+      padding-right: 7px;
+    }
+
+    .pizza__cart-button--choice:hover {
+      transition: 0.3s linear;
+      background-color: $main-color;
+    }
+
+  }
+
+  .amount-item-section{
+    @extend .flex-row;
+    align-items: center;
+    display: none;
+    font-family: $font-RaleBold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: $second-color;
+    padding: 14px 40px 15px 40px;
+
+    .amount-item-section span::after {
+      content: ' ';
+      display: inline-block;
+      background: red url(../../img/galka.png) 0 0 no-repeat;
+      width: 13px;
+      height: 10px;
+      padding-left:7px;
+    }
+
+    div{
+      font-size: 20px;
+      cursor: pointer;
+      display: inline-block;
+      margin-left: 10px;
+    }
+
+    .item-count{
+      width: 8px;
+    }
+
+
+  }
+
+
+}
+
+/*-- ----------------SECTION1 END---------------------*/

@@ -1,0 +1,20 @@
+{
+  "name": "Pizza-verstka",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "latest",
+    "fullpage.js": "latest",
+    "owl.carousel": "^2.2.1",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}
