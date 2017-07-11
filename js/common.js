@@ -33,6 +33,8 @@
             slidesNavigation: true,
             paddingTop: '100px',
             navigation: true,
+           /* autoScrolling:false,*/
+           /* normalScrollElements: '#section4',*/
             navigationPosition: 'right',
             navigationTooltips: ['Начало', 'Выбрать пиццу', 'Выбрать закуску', 'Выбрать напитки', 'Доставка и оплата'
                 , 'Мы в соц. сетях']

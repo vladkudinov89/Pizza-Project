@@ -6,9 +6,14 @@
 
 #section4{
 
+
   .fp-tableCell{
     vertical-align: top;
   }
+
+}
+
+.delivery_cond{
 
 }
 
@@ -22,21 +27,75 @@
 }
 
 .delivery_cond{
-  @extend .flex-row;
+/*  @extend .flex-row;*/
+  padding-top: 80px;
 
 }
 
 .delivery__cond-adress--form{
 
   input{
-    width: 315px;
+    //width: 300px;
+    width: 100%;
     display: inline-block;
+  }
+
+  .long-text{
+  /*  min-width: 600px;*/
+    width: 100% !important;
+  }
+
+  textarea{
+    resize: none;
   }
 
 }
 
-.delivery__cond-adress--form---date{
+.full-order{
+  padding: 20px !important;
+  border: 1px solid #515151;
+  margin: 20px;
+}
+
+.delivery__cond-order{
+  background-color: #262626;
+ height: 600px;
+
+
+  h2{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 800;
+    padding: 50px 0;
+    margin: 0;
+
+    span{
+      color: #c59d5f;
+    }
+  }
 
 
 }
+
+
+.your-order{
+  color: #fff;
+  border-bottom: 1px solid #515151;
+  padding-bottom: 30px;
+  
+  .order-item-name{
+    float: left;
+  }
+
+  .order-item-price{
+    float: right;
+  }
+
+}
+
+.full-order-reset{
+  background-color: transparent;
+}
+
+
 

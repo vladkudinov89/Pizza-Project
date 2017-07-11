@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700,800,900');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
 */
-.flex-row, .top__slides, #section1 .test, #section1 .amount-item-section, .delivery_cond {
+.flex-row, .top__slides, #section1 .test, #section1 .amount-item-section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -443,19 +443,79 @@
   margin-top: 20px;
   margin-bottom: 45px; }
 
+.delivery_cond {
+  /*  @extend .flex-row;*/
+  padding-top: 80px; }
+
 .delivery__cond-adress--form input {
-  width: 315px;
+  width: 100%;
   display: inline-block; }
+.delivery__cond-adress--form .long-text {
+  /*  min-width: 600px;*/
+  width: 100% !important; }
+.delivery__cond-adress--form textarea {
+  resize: none; }
+
+.full-order {
+  padding: 20px !important;
+  border: 1px solid #515151;
+  margin: 20px; }
+
+.delivery__cond-order {
+  background-color: #262626;
+  height: 600px; }
+  .delivery__cond-order h2 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 800;
+    padding: 50px 0;
+    margin: 0; }
+    .delivery__cond-order h2 span {
+      color: #c59d5f; }
+
+.your-order {
+  color: #fff;
+  border-bottom: 1px solid #515151;
+  padding-bottom: 30px; }
+  .your-order .order-item-name {
+    float: left; }
+  .your-order .order-item-price {
+    float: right; }
+
+.full-order-reset {
+  background-color: transparent; }
 
 /*==================================================
 =            Bootstrap 3 Media Queries             =
 ==================================================*/
-/*==========  Mobile First Method  ==========*/
-/* Custom, iPhone Retina */
-/* Extra Small Devices, Phones */
-/* Small Devices, Tablets */
-/* Medium Devices, Desktops */
-/* Large Devices, Wide Screens */
+/*
+
+!*==========  Mobile First Method  ==========*!
+
+!* Custom, iPhone Retina *!
+@media only screen and (min-width : 320px) {
+
+}
+
+!* Extra Small Devices, Phones *!
+@media only screen and (min-width : 480px) {
+
+}
+
+!* Small Devices, Tablets *!
+@media only screen and (min-width : 768px) {
+
+}
+
+!* Medium Devices, Desktops *!
+@media only screen and (min-width : 992px) {
+
+}
+
+!* Large Devices, Wide Screens *!
+@media only screen and (min-width : 1200px) {
+
+}*/
 /*==========  Non-Mobile First Method  ==========*/
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
